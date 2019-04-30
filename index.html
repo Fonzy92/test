@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flexslider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="flexslider.css"><!--FLEXSLIDER-->
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+    <!--FLEXSLIDER-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src ="jquery.flexslider-min.js"></script>			
+    <script>
+        $(window).on('load', function() {
+             $('.flexslider').flexslider({
+                directionNav: false,
+                controlNav: false,
+                slideshowSpeed: 2400,
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main class="container">
+        <h1>* FLEXSLIDER *</h1>
+        <section class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="img/1.png" alt="Photo" />
+                </li>
+                <li>
+                    <img src="img/2.png" alt="Photo" />
+                </li>
+                <li>
+                    <img src="img/3.png" alt="Photo" />
+                </li>
+                <li>
+                    <img src="img/4.png" alt="Photo" />
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <a href="thumbnails.html">* FLEXSLIDER Thumbnails *</a>
+            <a href="carousel.html">* Carousel *</a>
+        </section>
+        
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.0.js"
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src ="jquery.flexslider-min.js"></script>		
+</body>
+
+</html>
